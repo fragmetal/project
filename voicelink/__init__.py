@@ -1,6 +1,6 @@
-MIT License
+"""MIT License
 
-Copyright (c) 2023 Choco
+Copyright (c) 2023 Vocard Development
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,3 +19,20 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+"""
+
+__version__ = "1.3"
+__author__ = 'Vocard Development, Choco'
+__license__ = "MIT"
+__copyright__ = "Copyright 2023 (c) Vocard Development, Choco"
+
+from .enums import SearchType, LoopType
+from .events import *
+from .exceptions import *
+from .filters import *
+from .objects import *
+from .player import Player, connect_channel
+from .pool import *
+from .queue import *
+from .placeholders import Placeholders, build_embed
+from .formatter import encode, decode
