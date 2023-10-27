@@ -1,3 +1,4 @@
 Vocard.rar
 .env
 *.pyc
+__pycache__
