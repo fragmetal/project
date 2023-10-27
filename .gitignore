@@ -2,3 +2,4 @@ Vocard.rar
 .env
 *.pyc
 __pycache__
+.vscode
