@@ -1,9 +1,9 @@
 {
     "nodes": {
         "DEFAULT": {
-            "host": "lavalink-omee.onrender.com",
+            "host": "lavalink.ordinaryender.my.eu.org",
             "port": 443,
-            "password": "Sadri@123",
+            "password": "ordinarylavalink",
             "secure": true,
             "identifier": "RelayBoss"
         }
