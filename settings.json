@@ -5,7 +5,7 @@
             "port": 443,
             "password": "Sadri@123",
             "secure": true,
-            "identifier": "Relay"
+            "identifier": "RelayBoss"
         }
     },
     "prefix": "?",
