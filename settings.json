@@ -21,7 +21,7 @@
     "ipc_server": {
         "host": "0.0.0.0",
         "port": 8080,
-        "enable": true
+        "enable": false
     },
     "emoji_source_raw": {
         "youtube": "<:youtube:826661982760992778>",
