@@ -11,7 +11,7 @@
     "prefix": "?",
     "activity": [
         {
-            "listen": "/help"
+            "Custom": "Bot By **Sadri** | **/help**"
         }
     ],
     "bot_access_user": [],
