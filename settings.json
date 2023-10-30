@@ -1,9 +1,9 @@
 {
     "nodes": {
         "DEFAULT": {
-            "host": "lavalink.fragmetal88.repl.co",
+            "host": "lavalink.justapie.net",
             "port": 443,
-            "password": "Sadri@123",
+            "password": "pieajust12@XyZ",
             "secure": true,
             "identifier": "RelayBoss"
         }
