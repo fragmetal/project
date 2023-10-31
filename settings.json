@@ -1,7 +1,7 @@
 {
     "nodes": {
         "DEFAULT": {
-            "host": "lavalink.fragmetal88.repl.co",
+            "host": "lavalink-production-2f4d.up.railway.app",
             "port": 443,
             "password": "Sadri@123",
             "secure": true,
