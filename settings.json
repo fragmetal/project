@@ -1,9 +1,9 @@
 {
     "nodes": {
         "DEFAULT": {
-            "host": "lavalink.ordinaryender.my.eu.org",
+            "host": "lava.up.railway.app",
             "port": 443,
-            "password": "ordinarylavalink",
+            "password": "Sadri@123",
             "secure": true,
             "identifier": "RelayBoss"
         }
