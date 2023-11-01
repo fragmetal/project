@@ -1,9 +1,9 @@
 {
     "nodes": {
         "DEFAULT": {
-            "host": "lavalink-production-2f4d.up.railway.app",
+            "host": "lavalink.justapie.net",
             "port": 443,
-            "password": "Sadri@123",
+            "password": "pieajust12@XyZ",
             "secure": true,
             "identifier": "RelayBoss"
         }
