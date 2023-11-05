@@ -1,17 +1,17 @@
 {
     "nodes": {
         "DEFAULT": {
-            "host": "lava.up.railway.app",
-            "port": 443,
+            "host": "0.tcp.ngrok.io",
+            "port": 17021,
             "password": "Sadri@123",
-            "secure": true,
+            "secure": false,
             "identifier": "RelayBoss"
         }
     },
     "prefix": "?",
     "activity": [
         {
-            "Listen": "Bot By Sadri"
+            "Listen": "/ Commands"
         }
     ],
     "bot_access_user": [],
@@ -21,7 +21,7 @@
     "ipc_server": {
         "host": "0.0.0.0",
         "port": 8080,
-        "enable": true
+        "enable": false
     },
     "emoji_source_raw": {
         "youtube": "<:youtube:826661982760992778>",
