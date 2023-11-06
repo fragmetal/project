@@ -1,8 +1,8 @@
 {
     "nodes": {
         "DEFAULT": {
-            "host": "4.tcp.ngrok.io",
-            "port": 12342,
+            "host": "6.tcp.ngrok.io",
+            "port": 17787,
             "password": "Sadri@123",
             "secure": false,
             "identifier": "RelayBoss"

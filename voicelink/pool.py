@@ -205,7 +205,7 @@ class Node:
                 return
 
     async def _listen(self):
-        backoff = ExponentialBackoff(base=1.5)   
+        backoff = ExponentialBackoff(base=0.5)   
 
         while True:
             try:
