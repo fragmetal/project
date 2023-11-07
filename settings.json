@@ -1,9 +1,9 @@
 {
     "nodes": {
         "DEFAULT": {
-            "host": "lava3.horizxon.tech",
+            "host": "lavalink.projectrelay.repl.co",
             "port": 443,
-            "password": "horizxon.tech",
+            "password": "Sadri@123",
             "secure": true,
             "identifier": "RelayBoss"
         }
