@@ -15,16 +15,19 @@ class Nodes(commands.Cog):
         bot.loop.create_task(self.start_nodes())
         
     async def start_nodes(self) -> None:
-        """Connect and intiate nodes."""
+        """Connect and initiate nodes."""
         await self.bot.wait_until_ready()
         for n in func.settings.nodes.values():
-            try:
-                await self.voicelink.create_node(bot=self.bot, 
-                                                 spotify_client_id=func.tokens.spotify_client_id, 
-                                                 spotify_client_secret=func.tokens.spotify_client_secret,
-                                                 **n)
-            except Exception as e:
-                print(f'Node {n["identifier"]} is not able to connect! - Reason: {e}')
+            while True:
+                try:
+                    await self.voicelink.create_node(bot=self.bot, 
+                                                    spotify_client_id=func.tokens.spotify_client_id, 
+                                                    spotify_client_secret=func.tokens.spotify_client_secret,
+                                                    **n)
+                    break  # If the connection is successful, break the loop.
+                except Exception as e:
+                    print(f'Node {n["identifier"]} is not able to connect! - Reason: {e}')
+                    await asyncio.sleep(1)  # Wait for 1 seconds before trying to reconnect.
 
     @commands.Cog.listener()
     async def on_voicelink_track_end(self, player: voicelink.Player, track, _):
