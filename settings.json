@@ -1,10 +1,10 @@
 {
     "nodes": {
         "DEFAULT": {
-            "host": "lavalink.projectrelay.repl.co",
-            "port": 443,
+            "host": "0.tcp.ap.ngrok.io",
+            "port": 18144,
             "password": "Sadri@123",
-            "secure": true,
+            "secure": false,
             "identifier": "RelayBoss"
         }
     },
