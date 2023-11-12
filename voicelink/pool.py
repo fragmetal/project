@@ -205,6 +205,7 @@ class Node:
                 return
 
     async def _listen(self):
+        backoff = ExponentialBackoff(base=7)    
 
         while True:
             try:
@@ -214,7 +215,7 @@ class Node:
             if msg.type == aiohttp.WSMsgType.CLOSED:
                 self._available = False
 
-                retry = 1
+                retry = backoff.delay()
                 print(f"Trying to reconnect {self._identifier} with {round(retry)}s")
                 await asyncio.sleep(retry)
                 if not self.is_connected:
