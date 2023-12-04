@@ -66,7 +66,7 @@ URL_REGEX = re.compile(
     r"https?://(?:www\.)?.+"
 )
 
-NODE_VERSION = "v3"
+NODE_VERSION = "v4"
 CALL_METHOD = ["PATCH", "DELETE"]
 
 def exception_catch_callback(task):
