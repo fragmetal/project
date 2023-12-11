@@ -3,7 +3,7 @@
     "DEFAULT": {
       "host": "lavalink.fragmetal88.repl.co",
       "port": 443,
-      "password": "",
+      "password": "1",
       "secure": true,
       "identifier": "RelayBoss"
     }
